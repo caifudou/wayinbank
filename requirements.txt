@@ -1,0 +1,29 @@
+# Core dependencies
+mcp>=1.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Financial data sources
+akshare>=1.12.0
+yfinance>=0.2.36
+tushare>=1.2.89
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Technical indicators
+ta-lib>=0.4.28  # 可选，需系统安装 ta-lib
+pandas-ta>=0.3.14b
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Linting
+flake8>=6.1.0
+black>=23.7.0
